@@ -66,5 +66,45 @@ nav button {
 .main-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-box {
+    display: flex;
+    padding: 50px 50px 0 70px;
+    margin: 0 80px 0 80px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px #F6F6F6;
+}
+
+.flex-box img {
+    width: 450px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.main-info h3 {
+    padding: 65px 0 15px 0;
+    color: hsl(192, 100%, 9%);
+    font-size: 18px;
+}
+
+.left-prg {
+    padding-right: 180px;
+    color: hsl(208, 11%, 55%);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.right-prg {
+    padding-left: 180px;
+    color: hsl(208, 11%, 55%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#header-right {
+    padding-left: 180px;
 }
