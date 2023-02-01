@@ -39,8 +39,8 @@ nav button {
 }
 
 .nav-main img {
-    width: 800px;
-    height: 350px;
+    width: 850px;
+    height: 450px;
 }
 
 .nav-content h1 {
@@ -48,7 +48,7 @@ nav button {
 }
 
 .nav-content p {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     padding: 0 150px 20px 0;
 }
@@ -61,4 +61,10 @@ nav button {
     border: 1px solid hsl(322, 100%, 66%);
     color: white;
     font-size: 11px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
 }
